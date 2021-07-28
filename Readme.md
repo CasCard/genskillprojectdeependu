@@ -6,9 +6,9 @@
 
 <hr>
 
-- Create python3 virtual environment(python3 -m venv <virtual environment name>)
+- Create python3 virtual environment(python3 -m venv virtual-environment-name)
   
-- Activate the virtual environment(source <virtual environment name>/bin/activate)
+- Activate the virtual environment(source virtual-environment-name/bin/activate)
 
 - Change directory to the folder containing this repository
 
