@@ -6,27 +6,27 @@
 
 <hr>
 
-- Create python3 virtual environment(python3 -m venv virtual-environment-name)
+1 Create python3 virtual environment(python3 -m venv virtual-environment-name)
   
-- Activate the virtual environment(source virtual-environment-name/bin/activate)
+2 Activate the virtual environment(source virtual-environment-name/bin/activate)
 
-- Change directory to the folder containing this repository
+3 Change directory to the folder containing this repository
 
-- Run 'pip install -r requirements.txt' inside the folder
+4 Run 'pip install -r requirements.txt' inside the folder
 
-- In the terminal, type the following commands:
+5 In the terminal, type the following commands:
 
-- export FLASK_APP=app.py
+6 export FLASK_APP=app.py
 
-- export FLASK_DEBUG=1
+7 export FLASK_DEBUG=1
 
-- flask run
+8 flask run
 
-- Now CTRL+click the link or open http://127.0.0.1:5000 in a browser 
+9 Now CTRL+click the link or open http://127.0.0.1:5000 in a browser 
 
-- The app has been implemented
+10 The app has been implemented
 
-- Add or remove or update tasks as required
+11 Add or remove or update tasks as required
 
 </hr>
 <br>
