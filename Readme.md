@@ -38,6 +38,16 @@ git clone https://github.com/deependuprasad/genskillprojectdeependu.git
 
 </hr>
 <br>
+<b>RUNNING DIRECTLY IN LINUX TERMINAL</b> (skipping steps 1-8)
+<br>
+Execute the following commands:
+<br>
+git clone https://github.com/deependuprasad/genskillprojectdeependu.git
+<br>
+cd genskillprojectdeependu
+<br>
+bash script.sh
+<br>
 <img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-37-52.png" alt="Screenshot 1">
 <br>
 <img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-53-45.png" alt="Screenshot 2">
@@ -50,10 +60,3 @@ git clone https://github.com/deependuprasad/genskillprojectdeependu.git
 <br>
 <img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-52-55.png" alt="Screenshot 6">
 <br>
-
-<b>RUNNING DIRECTLY IN LINUX TERMINAL</b> (skipping steps 1-8)
-<br>
-Execute the following commands:
-git clone https://github.com/deependuprasad/genskillprojectdeependu.git
-cd genskillprojectdeependu
-bash script.sh
