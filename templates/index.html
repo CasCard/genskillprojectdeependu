@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    ::placeholder{font-style: italic;font-family:cursive;font-size:20px;}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>TO DO APP</title>
+
+</head>
+
+<body style="background-color:rgb(151, 229, 235);">
+<center>
+<div style="margin-top:100px"></div>
+    <h1><p style = "font-family:cursive;color:rgb(7, 9, 121);font-size:50px">ERRANDS</p></h1>
+    <br>
+    <form action="/add" method="post">
+        <div class="form-group">
+            <label for="title"></label>
+            <input style="font-family:'sans-serif';font-size:15px;" type="text" class="form-control" id="title" name="title" placeholder="Enter the task">
+            <button autofocus type="submit" class="btn btn-danger" style="color:rgb(111, 238, 238);background-color:black;">ADD</button>
+        </div>
+    </center>
+    </form>
+    {% if todolist == [] %}
+        <div class="alert alert-warning" role="alert">
+            <br><br>
+            <i><center>No tasks pending at the moment</center></i>
+        </div>
+    {% else %}
+    <br><br>
+    <center><table class="table">
+            <thead>
+            <tr>
+                <th><b></b></th>
+                <th><b>TITLE<hr></b></th>
+                <th><b>STATUS<hr></b></th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody></center>
+
+            {% for todo in todolist %}
+                <tr>
+                    <th scope="row">{{ todo.id }}</th>
+                    <td>{{ todo.title }}</td>
+                    {% if todo.complete == False %}
+                        <td><span class="badge badge-danger" style="color:red;">Pending</span></td>
+                    {% else %}
+                        <td><span class="badge badge-success" style="color:rgb(14, 117, 4);">Done</span></td>
+                    {% endif %}
+                    <td><a href="/complete/{{ todo.id }}" class="btn btn-info">Update</a></td>
+                    <td><a href="/delete/{{ todo.id }}" class="btn btn-danger">Remove</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</div>
+
+
+</body>
+</html>
