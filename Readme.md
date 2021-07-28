@@ -8,7 +8,7 @@
 
 Procedure to be followed <b><i>(these steps can be skipped by executing script.sh as given at the end)</b></i>
 <br>
-First create a local copy of the repository by executing(expecting git to be installed locally on the device)
+First create a local copy of the repository by executing(expecting git to be installed locally on the device):
 <br>
 git clone https://github.com/deependuprasad/genskillprojectdeependu.git
 
