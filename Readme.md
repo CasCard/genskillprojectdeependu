@@ -6,7 +6,7 @@
 
 <hr>
 
-Procedure to be followed <b><i>(these steps can be skipped by executing script.sh as given at the end)</b></i>
+Procedure to be followed <b><i>(these steps can be skipped by executing run.sh as given at the end)</b></i>
 <br>
 First create a local copy of the repository by executing(expecting git to be installed locally on the device):
 <br>
@@ -46,7 +46,7 @@ git clone https://github.com/deependuprasad/genskillprojectdeependu.git
 <br>
 cd genskillprojectdeependu
 <br>
-bash script.sh
+bash run.sh
 <br>
 <img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-37-52.png" alt="Screenshot 1">
 <br>
