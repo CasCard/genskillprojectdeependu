@@ -28,5 +28,9 @@
 
 - Add or remove or modify tasks as required
 
-<hr>
-
+</hr>
+<img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-37-52.png" alt="Screenshot 1">
+<br>
+<img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-38-54.png" alt="Screenshot 3">
+<br>
+<img src="https://github.com/deependuprasad/genskillprojectdeependu/blob/main/Screenshots/Screenshot%20from%202021-07-28%2021-38-56.png" alt="Screenshot 3">
